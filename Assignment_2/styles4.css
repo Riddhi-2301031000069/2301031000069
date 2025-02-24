@@ -1,0 +1,158 @@
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  width: 100%;
+  height: auto;
+}
+
+.home-4-1 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.image-4-2 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.text-3 {
+  position: absolute;
+  left: 98px;
+  top: 286px;
+  width: 779px;
+  height: 122px;
+  font-size: 101px;
+  font-family: var(--font-family-irish-grover);
+  font-weight: normal;
+  text-align: left;
+  color: rgba(9, 8, 8, 1);
+}
+
+.rectangle-7-4 {
+  position: absolute;
+  left: 98px;
+  top: 591px;
+  width: 563px;
+  height: 114px;
+  border-radius: 30px;
+}
+
+.rectangle-8-5 {
+  position: absolute;
+  left: 810px;
+  top: 591px;
+  width: 563px;
+  height: 114px;
+  border-radius: 30px;
+}
+
+.text-6 {
+  position: absolute;
+  left: 250px;
+  top: 591px;
+  width: 288px;
+  height: 131px;
+  font-size: 101px;
+  font-family: var(--font-family-instrument-serif);
+  font-weight: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.text-7 {
+  position: absolute;
+  left: 950px;
+  top: 579px;
+  width: 295px;
+  height: 252px;
+  font-size: 101px;
+  font-family: var(--font-family-instrument-serif);
+  font-weight: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.rectangle-16-8 {
+  position: absolute;
+  left: 40px;
+  top: 879px;
+  width: 1440px;
+  height: 145px;
+  background-color: rgb(198, 197, 197);
+}
+
+.text-9 {
+  position: absolute;
+  left: 45px;
+  top: 900px;
+  width: 269px;
+  height: 122px;
+  font-size: 101px;
+  font-family: var(--font-family-irish-grover);
+  font-weight: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.text-10 {
+  position: absolute;
+  left: 400px;
+  top: 900px;
+  width: 331px;
+  height: 122px;
+  font-size: 101px;
+  font-family: var(--font-family-irish-grover);
+  font-weight: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.text-11 {
+  position: absolute;
+  left: 880px;
+  top: 900px;
+  width: 298px;
+  height: 122px;
+  font-size: 101px;
+  font-family: var(--font-family-irish-grover);
+  font-weight: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.text-12 {
+  position: absolute;
+  left: 53px;
+  width: 168px;
+  height: 77px;
+  font-size: 64px;
+  font-family: var(--font-family-inria-sans);
+  font-weight: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.text-13 {
+  position: absolute;
+  left: 1329px;
+  top: 866px;
+  width: 87px;
+  height: 242px;
+  font-size: 200px;
+  font-family: var(--font-family-irish-grover);
+  font-weight: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+

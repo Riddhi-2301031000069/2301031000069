@@ -1,0 +1,82 @@
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main Container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  position: relative;
+  padding: 15px;
+}
+
+/* Search Bar */
+.search-bar {
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search-text {
+  font-size: 24px;
+  color: black;
+  text-align: left;
+  padding-left: 20px;
+}
+
+/* Image Section */
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.main-image {
+
+  height: auto;
+  border-radius: var(--border-radius);
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+  width: 100%;
+  background-color: var(--nav-bg);
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+

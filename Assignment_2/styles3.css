@@ -1,0 +1,108 @@
+
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+body {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* Main Container */
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: black;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Titles */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.account-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin: 25px 0 15px;
+}
+
+/* Language Buttons */
+.language-selection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.language-btn {
+  background-color:white;
+  color:white;
+  padding: 10px;
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: 16px;
+  cursor: pointer;
+  width: 30%;
+  transition: background 0.3s ease;
+}
+
+.language-btn:hover {
+  background-color:white;
+}
+
+/* Form Inputs */
+.account-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-label {
+  font-size: 16px;
+  color: white;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.input-box {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color:white;
+  border: 1px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  margin-bottom: 15px;
+}
+
+/* Log In Button */
+.login-btn {
+  background-color: var(--secondary-color);
+  color: whitesmoke;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  width: 100%;
+  transition: background 0.3s ease;
+}
+
+
